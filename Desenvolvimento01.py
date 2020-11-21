@@ -1,7 +1,7 @@
 PRO = 'Programa de Testes'
 print('{}: Olá Mundo!'.format(PRO))
 print('Eu sou o {}'.format(PRO))
-NOME = input('{} Você poderia me informa seu nome? '.format(PRO))
+NOME = input('{}: Você poderia me informa seu nome? '.format(PRO))
 print('{}: Olá {} seja bem vindo ao {}!'.format(PRO, NOME, PRO))
 print('{}: Por favor você poderia informar sua data de nascimento?'.format(PRO))
 DIA = input('Dia: ')
